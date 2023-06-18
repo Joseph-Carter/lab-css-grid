@@ -1,5 +1,47 @@
 /* Write your CSS here! */
-
+.menu {
+  display: grid;
+  grid-template-areas:
+    "h h h h h";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+.logo {
+  display: grid;
+  grid-template-areas:
+    "h h h h h";
+    display: flex;
+    height: 0px;
+}
+.primary-content {
+  display: grid;
+  grid-template-areas:
+    "s m m m m";
+}
+.main {
+  display: flex;
+  grid-area: m;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+}
+.sidebar {
+display: flex;
+grid-area: s;
+width: auto;
+text-align: center;
+justify-content: center;
+}
+.footer {
+  grid-template-areas:
+    "f f f f f";
+  grid-area: f;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 /* Do not change the CSS below. */
 
 .header {
